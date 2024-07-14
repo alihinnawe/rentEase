@@ -156,6 +156,7 @@ button:hover {
 .ul_form {
   display: flex;
   flex-direction: row;
+  padding: 50px;
   flex-direction: column;
   list-style-type: none;
 }

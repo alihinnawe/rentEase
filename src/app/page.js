@@ -33,25 +33,6 @@ export default function Home() {
           </div>
         </form>
       </section>
-      <section>
-        <ul class="ul_form">
-          <li>
-            <a width="50px" href="/public/next.svg">
-              <img src="#"></img>Twitter
-            </a>
-          </li>
-          <li>
-            <a width="50px" href="/public/next.svg">
-              <img src="#"></img>Facebook
-            </a>
-          </li>
-          <li>
-            <a width="50px" href="/public/next.svg">
-              <img src="#"></img>linkedin
-            </a>
-          </li>
-        </ul>
-      </section>
     </main>
   );
 }
