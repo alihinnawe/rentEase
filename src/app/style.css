@@ -4,18 +4,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   min-height: 100vh;
   background-image: url("/images/login-background.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover;
+  padding: 100px 20px 0px;
 }
 
 section {
@@ -29,6 +30,7 @@ section {
   justify-content: center;
   align-items: center;
   padding: 2rem 3rem;
+  margin-right: auto; /* Ensure the section stays to the left */
 }
 
 /* Style for fieldset */
@@ -149,4 +151,11 @@ button:hover {
 
 .register p a:hover {
   text-decoration: underline;
+}
+
+.ul_form {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  list-style-type: none;
 }
