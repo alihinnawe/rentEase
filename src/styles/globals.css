@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+  /* Orange to Red gradient for a festival feel */
+}
+
+body {
+  position: relative;
+  color: #495057;
+}
+.header {
+  background-color: whitesmoke;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 3rem;
+  color: #a61e4d;
+  font-weight: 500;
+}
+
+.menu-item {
+  font-size: 1.3rem;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+}
+
+main {
+  padding: 3rem;
+  padding-top: 1rem;
+}
+
+.margin-bottom {
+  margin-bottom: 3rem;
+}
+
+.margin-r-small {
+  margin-right: 1.5rem;
+}
+
+/* CSS */
