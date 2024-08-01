@@ -1,24 +1,32 @@
 "use client"; // This directive is required to use client-side features like hooks
 
-import { useSession, signIn, signOut } from "next-auth/react";
-import "../app/style.css"; // Assuming the path is correct and `style.css` exists
+import { signIn, signOut } from "next-auth/react";
+import Link from "next/link";
+import "../app/style.css";
+import useRequireAuth from "../app/hooks/useRequireAuth";
 
 export default function Home() {
-  const { data: session } = useSession();
+  const { session, status } = useRequireAuth();
+
+  if (status === "loading") {
+    return <p>Loading...</p>;
+  }
 
   return (
     <main>
       <section>
         {session ? (
           <>
-            {/* Display the user's profile image */}
             <img
-              src={session.user?.image || "/default-profile.png"} // Fallback to a default image if none exists
+              src={session.user?.image || "/default-profile.png"}
               alt={session.user?.name || "User"}
               className="profile-image"
             />
             <p>Welcome, {session.user?.name}</p>
             <button onClick={() => signOut()}>Sign out</button>
+            <div>
+              <Link href="/myitems">Go to My Items</Link>
+            </div>
           </>
         ) : (
           <>
