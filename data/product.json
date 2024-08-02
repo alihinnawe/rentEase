@@ -1,0 +1,252 @@
+{
+  "products": [
+    {
+      "name": "Beats Solo3 Wireless On-Ear Headphones",
+      "description": "Premium headphones with Bluetooth connectivity and 40 hours of battery life.",
+      "price": 199.95,
+      "seller": "Beats by Dr. Dre",
+      "stock": 500,
+      "category": "Electronics"
+    },
+    {
+      "name": "Apple iPhone 13",
+      "description": "Latest iPhone with A15 Bionic chip and advanced camera system.",
+      "price": 799.0,
+      "seller": "Apple",
+      "stock": 150,
+      "category": "Electronics"
+    },
+    {
+      "name": "Samsung Galaxy S22",
+      "description": "Flagship Samsung smartphone with powerful performance and excellent camera.",
+      "price": 999.99,
+      "seller": "Samsung",
+      "stock": 200,
+      "category": "Electronics"
+    },
+    {
+      "name": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones",
+      "description": "Industry-leading noise cancellation and superior sound quality.",
+      "price": 349.99,
+      "seller": "Sony",
+      "stock": 300,
+      "category": "Electronics"
+    },
+    {
+      "name": "Apple MacBook Air M1",
+      "description": "Ultra-light laptop with Apple's M1 chip and all-day battery life.",
+      "price": 999.0,
+      "seller": "Apple",
+      "stock": 120,
+      "category": "Electronics"
+    },
+    {
+      "name": "Nintendo Switch",
+      "description": "Hybrid gaming console for home and on-the-go gaming.",
+      "price": 299.99,
+      "seller": "Nintendo",
+      "stock": 250,
+      "category": "Electronics"
+    },
+    {
+      "name": "Bose QuietComfort 35 II",
+      "description": "Wireless headphones with excellent noise cancellation.",
+      "price": 299.0,
+      "seller": "Bose",
+      "stock": 180,
+      "category": "Electronics"
+    },
+    {
+      "name": "Amazon Echo Dot (4th Gen)",
+      "description": "Smart speaker with Alexa voice assistant.",
+      "price": 49.99,
+      "seller": "Amazon",
+      "stock": 600,
+      "category": "Electronics"
+    },
+    {
+      "name": "GoPro HERO10 Black",
+      "description": "Action camera with 5.3K video and advanced stabilization.",
+      "price": 399.99,
+      "seller": "GoPro",
+      "stock": 90,
+      "category": "Electronics"
+    },
+    {
+      "name": "Fitbit Charge 5",
+      "description": "Advanced fitness tracker with heart rate monitoring.",
+      "price": 179.95,
+      "seller": "Fitbit",
+      "stock": 250,
+      "category": "Electronics"
+    },
+    {
+      "name": "Levi's 501 Original Fit Jeans",
+      "description": "Classic straight-leg jeans with a slightly tapered leg.",
+      "price": 69.5,
+      "seller": "Levi's",
+      "stock": 200,
+      "category": "Clothing"
+    },
+    {
+      "name": "Adidas Originals Men's Superstar Sneakers",
+      "description": "Iconic Adidas sneakers with a classic shell toe.",
+      "price": 85.0,
+      "seller": "Adidas",
+      "stock": 180,
+      "category": "Footwear"
+    },
+    {
+      "name": "Nike Air Force 1",
+      "description": "Legendary sneakers with a classic silhouette.",
+      "price": 90.0,
+      "seller": "Nike",
+      "stock": 220,
+      "category": "Footwear"
+    },
+    {
+      "name": "The North Face Men's ThermoBall Jacket",
+      "description": "Lightweight, packable insulated jacket for cold weather.",
+      "price": 199.0,
+      "seller": "The North Face",
+      "stock": 100,
+      "category": "Clothing"
+    },
+    {
+      "name": "Patagonia Women's Better Sweater Fleece Jacket",
+      "description": "Warm, cozy fleece jacket with a sweater-knit face.",
+      "price": 139.0,
+      "seller": "Patagonia",
+      "stock": 150,
+      "category": "Clothing"
+    },
+    {
+      "name": "Under Armour Men's Tech 2.0 Short-Sleeve T-Shirt",
+      "description": "Performance t-shirt with moisture-wicking fabric.",
+      "price": 25.0,
+      "seller": "Under Armour",
+      "stock": 300,
+      "category": "Clothing"
+    },
+    {
+      "name": "Columbia Women's Arcadia II Rain Jacket",
+      "description": "Waterproof and breathable rain jacket.",
+      "price": 89.99,
+      "seller": "Columbia",
+      "stock": 120,
+      "category": "Clothing"
+    },
+    {
+      "name": "Puma Men's Essentials Logo Hoodie",
+      "description": "Comfortable hoodie with a bold Puma logo.",
+      "price": 50.0,
+      "seller": "Puma",
+      "stock": 250,
+      "category": "Clothing"
+    },
+    {
+      "name": "Calvin Klein Men's Modern Cotton Stretch Boxer Briefs",
+      "description": "Soft, breathable boxer briefs with a comfortable waistband.",
+      "price": 39.5,
+      "seller": "Calvin Klein",
+      "stock": 300,
+      "category": "Clothing"
+    },
+    {
+      "name": "Ralph Lauren Polo Shirt",
+      "description": "Classic polo shirt with the iconic polo player logo.",
+      "price": 85.0,
+      "seller": "Ralph Lauren",
+      "stock": 200,
+      "category": "Clothing"
+    },
+    {
+      "name": "Converse Chuck Taylor All Star",
+      "description": "Classic high-top sneakers with a canvas upper.",
+      "price": 55.0,
+      "seller": "Converse",
+      "stock": 150,
+      "category": "Footwear"
+    },
+    {
+      "name": "Timberland Men's 6-Inch Premium Waterproof Boots",
+      "description": "Durable boots with waterproof construction.",
+      "price": 190.0,
+      "seller": "Timberland",
+      "stock": 100,
+      "category": "Footwear"
+    },
+    {
+      "name": "Vans Old Skool",
+      "description": "Iconic skate shoes with a low-top design.",
+      "price": 60.0,
+      "seller": "Vans",
+      "stock": 250,
+      "category": "Footwear"
+    },
+    {
+      "name": "Birkenstock Arizona Sandals",
+      "description": "Comfortable sandals with adjustable straps.",
+      "price": 99.95,
+      "seller": "Birkenstock",
+      "stock": 150,
+      "category": "Footwear"
+    },
+    {
+      "name": "UGG Classic Short II Boot",
+      "description": "Cozy sheepskin boots with a durable sole.",
+      "price": 170.0,
+      "seller": "UGG",
+      "stock": 80,
+      "category": "Footwear"
+    },
+    {
+      "name": "Crocs Classic Clog",
+      "description": "Lightweight, comfortable clogs with ventilation ports.",
+      "price": 45.0,
+      "seller": "Crocs",
+      "stock": 300,
+      "category": "Footwear"
+    },
+    {
+      "name": "Reebok Club C 85",
+      "description": "Retro-inspired sneakers with a clean design.",
+      "price": 75.0,
+      "seller": "Reebok",
+      "stock": 220,
+      "category": "Footwear"
+    },
+    {
+      "name": "Dr. Martens 1460 Smooth Leather Boots",
+      "description": "Iconic lace-up boots with a durable design.",
+      "price": 150.0,
+      "seller": "Dr. Martens",
+      "stock": 100,
+      "category": "Footwear"
+    },
+    {
+      "name": "New Balance 574",
+      "description": "Classic sneakers with a comfortable fit.",
+      "price": 80.0,
+      "seller": "New Balance",
+      "stock": 200,
+      "category": "Footwear"
+    },
+    {
+      "name": "Asics Gel-Kayano 27",
+      "description": "Running shoes with exceptional support and cushioning.",
+      "price": 160.0,
+      "seller": "Asics",
+      "stock": 150,
+      "category": "Footwear"
+    },
+    {
+      "name": "The Great Gatsby by F. Scott Fitzgerald",
+      "description": "Classic novel set in the Jazz Age.",
+      "price": 10.99,
+      "seller": "Penguin Books",
+      "stock": 100,
+      "category": "Books"
+    }
+  ]
+}
