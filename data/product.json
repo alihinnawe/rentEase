@@ -6,7 +6,17 @@
       "price": 199.95,
       "seller": "Beats by Dr. Dre",
       "stock": 500,
-      "category": "Electronics"
+      "category": "Electronics",
+      "images": [
+        {
+          "public_id": "beats-solo3-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "beats-solo3-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Apple iPhone 13",
@@ -14,7 +24,17 @@
       "price": 799.0,
       "seller": "Apple",
       "stock": 150,
-      "category": "Electronics"
+      "category": "Electronics",
+      "images": [
+        {
+          "public_id": "iphone-13-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "iphone-13-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Samsung Galaxy S22",
@@ -22,7 +42,17 @@
       "price": 999.99,
       "seller": "Samsung",
       "stock": 200,
-      "category": "Electronics"
+      "category": "Electronics",
+      "images": [
+        {
+          "public_id": "galaxy-s22-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "galaxy-s22-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones",
@@ -30,7 +60,17 @@
       "price": 349.99,
       "seller": "Sony",
       "stock": 300,
-      "category": "Electronics"
+      "category": "Electronics",
+      "images": [
+        {
+          "public_id": "sony-wh-1000xm4-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "sony-wh-1000xm4-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Apple MacBook Air M1",
@@ -38,7 +78,17 @@
       "price": 999.0,
       "seller": "Apple",
       "stock": 120,
-      "category": "Electronics"
+      "category": "Electronics",
+      "images": [
+        {
+          "public_id": "macbook-air-m1-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "macbook-air-m1-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Nintendo Switch",
@@ -46,7 +96,17 @@
       "price": 299.99,
       "seller": "Nintendo",
       "stock": 250,
-      "category": "Electronics"
+      "category": "Electronics",
+      "images": [
+        {
+          "public_id": "nintendo-switch-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "nintendo-switch-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Bose QuietComfort 35 II",
@@ -54,15 +114,17 @@
       "price": 299.0,
       "seller": "Bose",
       "stock": 180,
-      "category": "Electronics"
-    },
-    {
-      "name": "Amazon Echo Dot (4th Gen)",
-      "description": "Smart speaker with Alexa voice assistant.",
-      "price": 49.99,
-      "seller": "Amazon",
-      "stock": 600,
-      "category": "Electronics"
+      "category": "Electronics",
+      "images": [
+        {
+          "public_id": "bose-qc35-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "bose-qc35-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "GoPro HERO10 Black",
@@ -70,7 +132,17 @@
       "price": 399.99,
       "seller": "GoPro",
       "stock": 90,
-      "category": "Electronics"
+      "category": "Electronics",
+      "images": [
+        {
+          "public_id": "gopro-hero10-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "gopro-hero10-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Fitbit Charge 5",
@@ -78,7 +150,17 @@
       "price": 179.95,
       "seller": "Fitbit",
       "stock": 250,
-      "category": "Electronics"
+      "category": "Electronics",
+      "images": [
+        {
+          "public_id": "fitbit-charge-5-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "fitbit-charge-5-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Levi's 501 Original Fit Jeans",
@@ -86,7 +168,17 @@
       "price": 69.5,
       "seller": "Levi's",
       "stock": 200,
-      "category": "Clothing"
+      "category": "Clothing",
+      "images": [
+        {
+          "public_id": "levis-501-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "levis-501-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Adidas Originals Men's Superstar Sneakers",
@@ -94,7 +186,17 @@
       "price": 85.0,
       "seller": "Adidas",
       "stock": 180,
-      "category": "Footwear"
+      "category": "Footwear",
+      "images": [
+        {
+          "public_id": "adidas-superstar-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "adidas-superstar-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Nike Air Force 1",
@@ -102,7 +204,17 @@
       "price": 90.0,
       "seller": "Nike",
       "stock": 220,
-      "category": "Footwear"
+      "category": "Footwear",
+      "images": [
+        {
+          "public_id": "nike-air-force-1-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "nike-air-force-1-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "The North Face Men's ThermoBall Jacket",
@@ -110,7 +222,17 @@
       "price": 199.0,
       "seller": "The North Face",
       "stock": 100,
-      "category": "Clothing"
+      "category": "Clothing",
+      "images": [
+        {
+          "public_id": "north-face-thermoball-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "north-face-thermoball-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Patagonia Women's Better Sweater Fleece Jacket",
@@ -118,7 +240,17 @@
       "price": 139.0,
       "seller": "Patagonia",
       "stock": 150,
-      "category": "Clothing"
+      "category": "Clothing",
+      "images": [
+        {
+          "public_id": "patagonia-better-sweater-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "patagonia-better-sweater-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Under Armour Men's Tech 2.0 Short-Sleeve T-Shirt",
@@ -126,7 +258,17 @@
       "price": 25.0,
       "seller": "Under Armour",
       "stock": 300,
-      "category": "Clothing"
+      "category": "Clothing",
+      "images": [
+        {
+          "public_id": "under-armour-tech-2.0-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "under-armour-tech-2.0-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     },
     {
       "name": "Columbia Women's Arcadia II Rain Jacket",
@@ -134,119 +276,17 @@
       "price": 89.99,
       "seller": "Columbia",
       "stock": 120,
-      "category": "Clothing"
-    },
-    {
-      "name": "Puma Men's Essentials Logo Hoodie",
-      "description": "Comfortable hoodie with a bold Puma logo.",
-      "price": 50.0,
-      "seller": "Puma",
-      "stock": 250,
-      "category": "Clothing"
-    },
-    {
-      "name": "Calvin Klein Men's Modern Cotton Stretch Boxer Briefs",
-      "description": "Soft, breathable boxer briefs with a comfortable waistband.",
-      "price": 39.5,
-      "seller": "Calvin Klein",
-      "stock": 300,
-      "category": "Clothing"
-    },
-    {
-      "name": "Ralph Lauren Polo Shirt",
-      "description": "Classic polo shirt with the iconic polo player logo.",
-      "price": 85.0,
-      "seller": "Ralph Lauren",
-      "stock": 200,
-      "category": "Clothing"
-    },
-    {
-      "name": "Converse Chuck Taylor All Star",
-      "description": "Classic high-top sneakers with a canvas upper.",
-      "price": 55.0,
-      "seller": "Converse",
-      "stock": 150,
-      "category": "Footwear"
-    },
-    {
-      "name": "Timberland Men's 6-Inch Premium Waterproof Boots",
-      "description": "Durable boots with waterproof construction.",
-      "price": 190.0,
-      "seller": "Timberland",
-      "stock": 100,
-      "category": "Footwear"
-    },
-    {
-      "name": "Vans Old Skool",
-      "description": "Iconic skate shoes with a low-top design.",
-      "price": 60.0,
-      "seller": "Vans",
-      "stock": 250,
-      "category": "Footwear"
-    },
-    {
-      "name": "Birkenstock Arizona Sandals",
-      "description": "Comfortable sandals with adjustable straps.",
-      "price": 99.95,
-      "seller": "Birkenstock",
-      "stock": 150,
-      "category": "Footwear"
-    },
-    {
-      "name": "UGG Classic Short II Boot",
-      "description": "Cozy sheepskin boots with a durable sole.",
-      "price": 170.0,
-      "seller": "UGG",
-      "stock": 80,
-      "category": "Footwear"
-    },
-    {
-      "name": "Crocs Classic Clog",
-      "description": "Lightweight, comfortable clogs with ventilation ports.",
-      "price": 45.0,
-      "seller": "Crocs",
-      "stock": 300,
-      "category": "Footwear"
-    },
-    {
-      "name": "Reebok Club C 85",
-      "description": "Retro-inspired sneakers with a clean design.",
-      "price": 75.0,
-      "seller": "Reebok",
-      "stock": 220,
-      "category": "Footwear"
-    },
-    {
-      "name": "Dr. Martens 1460 Smooth Leather Boots",
-      "description": "Iconic lace-up boots with a durable design.",
-      "price": 150.0,
-      "seller": "Dr. Martens",
-      "stock": 100,
-      "category": "Footwear"
-    },
-    {
-      "name": "New Balance 574",
-      "description": "Classic sneakers with a comfortable fit.",
-      "price": 80.0,
-      "seller": "New Balance",
-      "stock": 200,
-      "category": "Footwear"
-    },
-    {
-      "name": "Asics Gel-Kayano 27",
-      "description": "Running shoes with exceptional support and cushioning.",
-      "price": 160.0,
-      "seller": "Asics",
-      "stock": 150,
-      "category": "Footwear"
-    },
-    {
-      "name": "The Great Gatsby by F. Scott Fitzgerald",
-      "description": "Classic novel set in the Jazz Age.",
-      "price": 10.99,
-      "seller": "Penguin Books",
-      "stock": 100,
-      "category": "Books"
+      "category": "Clothing",
+      "images": [
+        {
+          "public_id": "columbia-arcadia-ii-1",
+          "url": "./images/login-background.png"
+        },
+        {
+          "public_id": "columbia-arcadia-ii-2",
+          "url": "./images/login-background.png"
+        }
+      ]
     }
   ]
 }

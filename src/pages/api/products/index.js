@@ -49,6 +49,7 @@ export default async function handler(req, res) {
           seller: singleProduct.seller,
           stock: singleProduct.stock,
           category: singleProduct.category,
+          images: singleProduct.images,
         };
 
         try {
