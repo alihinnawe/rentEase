@@ -8,7 +8,7 @@ if (!MONGODB_URI) {
   );
 }
 
-console.log("MongoDB URI:", MONGODB_URI); // Add this line to log the URI
+console.log("MongoDB URI:", MONGODB_URI);
 
 let cached = global.mongoose;
 

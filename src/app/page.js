@@ -1,46 +1,68 @@
-"use client"; // Ensure this is at the top of the file if using client-side features
-import { useEffect } from "react";
-import productData from "../../data/product.json";
-
+"use client";
+import React, { useState, useEffect } from "react";
 import { signIn, signOut } from "next-auth/react";
 import Link from "next/link";
-import "../app/style.css";
-import useRequireAuth from "../app/hooks/useRequireAuth";
+import styled from "styled-components";
+import useSWR from "swr";
+import productData from "../../data/product.json"; // Ensure this is the correct path
+import useRequireAuth from "../app/hooks/useRequireAuth"; // Import your authentication hook
+
+const List = styled.ul`
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 0;
+`;
+
+const ListItem = styled.li`
+  position: relative;
+  width: 100%;
+`;
+
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function Home() {
-  const { session, status } = useRequireAuth();
+  const { session, status } = useRequireAuth(); // Ensure this hook is correctly defined and imported
+  const [dataLoaded, setDataLoaded] = useState(false);
 
-  useEffect(() => {
-    const fetchProducts = async () => {
-      console.log("meeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
-      console.log("Loading products...data", productData);
+  // POST data to the server
+  const postData = async () => {
+    try {
+      const response = await fetch("/api/products", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ products: productData.products }),
+      });
 
-      try {
-        const response = await fetch("/api/products", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ products: productData.products }), // Ensure this is a JSON string
-        });
-
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-
-        const result = await response.json();
-        console.log(result); // Log or handle the response data as needed
-      } catch (error) {
-        console.error("Error fetching products:", error);
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
       }
+
+      const result = await response.json();
+      console.log("Posted products:", result);
+      setDataLoaded(true); // Data is successfully posted
+    } catch (error) {
+      console.error("Error posting products:", error);
+    }
+  };
+
+  // Trigger data posting and then fetch data
+  useEffect(() => {
+    const initializeData = async () => {
+      await postData(); // Ensure the data is posted first
     };
+    initializeData();
+  }, []); // Run once on mount
 
-    fetchProducts();
-  }, []); // Empty dependency array ensures this runs only once on mount
+  // Fetch data using SWR
+  const { data, error } = useSWR(dataLoaded ? "/api/products" : null, fetcher);
 
-  if (status === "loading") {
-    return <p>Loading...</p>;
-  }
+  if (error) return <div>Failed to load</div>;
+  if (!data) return <div>Loading...</div>;
 
   return (
     <main>
@@ -98,6 +120,18 @@ export default function Home() {
           </>
         )}
       </section>
+
+      <List role="list">
+        {data.map((product) => (
+          <ListItem key={product._id}>
+            <div>
+              <h2>{product.name}</h2>
+              <p>{product.description}</p>
+              <p>${product.price}</p>
+            </div>
+          </ListItem>
+        ))}
+      </List>
     </main>
   );
 }
